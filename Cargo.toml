@@ -12,7 +12,7 @@ keywords = ["secret-handshake", "handshake", "ssb", "scuttlebutt", "shs"]
 
 [dependencies]
 futures = "0.3.1"
-quick-error = "1.2.2"
+quick-error = "1.2.3"
 ssb-crypto = { version = "0.1.4", git = "https://github.com/leo-lb/ssb-crypto" }
 
 [dev-dependencies]
