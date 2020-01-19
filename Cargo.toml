@@ -13,10 +13,10 @@ keywords = ["secret-handshake", "handshake", "ssb", "scuttlebutt", "shs"]
 [dependencies]
 futures = "0.3.1"
 quick-error = "1.2.2"
-ssb-crypto = "0.1.4"
+ssb-crypto = { version = "0.1.4", git = "https://github.com/leo-lb/ssb-crypto" }
 
 [dev-dependencies]
-async-ringbuffer = "0.5.4"
+async-ringbuffer = { version = "0.5.4", git = "https://github.com/leo-lb/async-ringbuffer" }
 hex = "0.4.0"
 futures-util = "0.3.1"
 readwrite = "0.1.1"
